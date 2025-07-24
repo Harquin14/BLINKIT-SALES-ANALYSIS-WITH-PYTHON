@@ -33,6 +33,7 @@ Rating: Customer rating (1–5 scale)
 (Full schema based on blinkit dataset conventions)
 
 # Steps & Workflow
+
 1. Data Cleaning & Processing
 Standardized inconsistent fat content labels (e.g. “LF”, “low fat”, “reg”) to unified categories.
 
@@ -40,7 +41,9 @@ Handled missing values and corrected data types.
 
 Applied feature engineering and removed anomalies/outliers.
 
+
 2. KPI Calculation & Business Metrics
+   
 Computed the following KPIs:
 
 Total Sales: Overall revenue across outlets
@@ -52,35 +55,38 @@ Number of Items Sold
 Average Rating: Customer satisfaction metric
 
 3. Exploratory Data Analysis
+   
 Performed with Pandas, Seaborn, and Matplotlib:
 
-Sales by Fat Content: Pie or bar charts of metrics across fat categories
+- Sales by Fat Content: Pie or bar charts of metrics across fat categories
 
-Sales by Item Type: Visual comparisons of sales and ratings per category
+- Sales by Item Type: Visual comparisons of sales and ratings per category
 
-Outlet Establishment Year Trends: Time-based performance analysis
+- Outlet Establishment Year Trends: Time-based performance analysis
 
-Outlet Size & Location Impact: Sales distribution by store size and region
+- Outlet Size & Location Impact: Sales distribution by store size and region
 
-Relationship analysis among pricing, item visibility, and ratings
+- Relationship analysis among pricing, item visibility, and ratings
 
 4. Visualization & Insights
+   
 Generated visual narratives such as:
 
-Donut chart for fat-content sales distribution
+- Donut chart for fat-content sales distribution
 
-Stacked bar charts comparing item types across outlet attributes
+- Stacked bar charts comparing item types across outlet attributes
 
-Line graphs showing trends over outlet establishment years
+- Line graphs showing trends over outlet establishment years
 
-Geographic or tier-based maps for location-driven sales patterns (if mapping used)
+- Geographic or tier-based maps for location-driven sales patterns (if mapping used)
 
-🧰 Tools & Technologies Used
-Python (pandas, numpy) for data processing
+ # Tools & Technologies Used
+ 
+- Python (pandas, numpy) for data processing
 
-Seaborn & Matplotlib for visualization
+- Seaborn & Matplotlib for visualization
 
-Jupyter Notebook (or .py scripts) for EDA workflow
+- Jupyter Notebook  for EDA workflow
 
 How to Run This Project
 bash
@@ -138,7 +144,7 @@ From the analysis, we observed:
 License
 This project is licensed under the MIT License – free to use, modify, and distribute.
 
-Contact
+# Contact
 Have questions or want to collaborate? Reach out:
 
 GitHub: Harquin14
