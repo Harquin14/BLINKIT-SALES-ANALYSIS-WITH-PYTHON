@@ -3,7 +3,7 @@
 # Project Overview
 This project delivers an in-depth Exploratory Data Analysis (EDA) of Blinkit sales data using Python tools. We uncover sales trends, product performance, and outlet behavior by applying data cleaning, KPI computation, and visualization techniques.
 
-#Objective
+# Objective
 The key goals of this analysis include:
 
 Understanding the impact of fat content, item categories, and outlet attributes on sales.
@@ -14,7 +14,7 @@ Computing critical business KPIs: Total Sales, Average Sales, Items Sold, Averag
 
 Identifying actionable insights to guide inventory strategy and operational planning.
 
-#Dataset
+# Dataset
 The dataset features sales data from Blinkit with attributes such as:
 
 Item_Identifier: Unique ID per item
@@ -32,7 +32,7 @@ Sales: Revenue per item sold
 Rating: Customer rating (1–5 scale)
 (Full schema based on blinkit dataset conventions)
 
-#Steps & Workflow
+# Steps & Workflow
 1. Data Cleaning & Processing
 Standardized inconsistent fat content labels (e.g. “LF”, “low fat”, “reg”) to unified categories.
 
@@ -98,38 +98,42 @@ pip install pandas numpy matplotlib seaborn
 jupyter notebook blinkit_analysis.ipynb
 # Or execute script:
 python blinkit_analysis.py
-Key Insights & Findings
+
+
+# Key Insights & Findings
 From the analysis, we observed:
 
-Low Fat items outperform in total sales and ratings across multiple outlets.
+- Low Fat items outperform in total sales and ratings across multiple outlets.
 
-Snack foods and Dairy emerge as high-revenue product categories.
+- Snack foods and Dairy emerge as high-revenue product categories.
 
-Medium‑sized outlets and outlets in Tier‑3 locations demonstrate strong sales performance.
+- Medium‑sized outlets and outlets in Tier‑3 locations demonstrate strong sales performance.
 
-Earlier established outlets tend to have higher average ratings (suggesting operational maturity).
+- Earlier established outlets tend to have higher average ratings (suggesting operational maturity).
 
-Recommendations
-For Management
-Prioritize stocking inventory in Low Fat & Snack segments.
+# Recommendations For Management
 
-Invest in expansion or retention strategies for Tier‑3 locations and medium outlets.
+- Prioritize stocking inventory in Low Fat & Snack segments.
 
-Leverage trends from outlet establishment data to guide new outlet rollout plans.
+- Invest in expansion or retention strategies for Tier‑3 locations and medium outlets.
 
-For Analysts & Stakeholders
-Extend analysis with Machine Learning for price predictions and trend forecasting.
+- Leverage trends from outlet establishment data to guide new outlet rollout plans.
 
-Incorporate sentiment analysis from customer reviews to enrich feedback insights.
+# For Analysts & Stakeholders
 
-Build an interactive dashboard using Plotly, Tableau, or Power BI for dynamic stakeholder reporting.
+- Extend analysis with Machine Learning for price predictions and trend forecasting.
 
-Future Work
-Build predictive models on pricing or sales volume.
+- Incorporate sentiment analysis from customer reviews to enrich feedback insights.
 
-Integrate review data for deeper sentiment insights.
+- Build an interactive dashboard using Plotly, Tableau, or Power BI for dynamic stakeholder reporting.
 
-Deploy an interactive dashboard or web app for real‑time exploration.
+# Future Work
+
+- Build predictive models on pricing or sales volume.
+
+- Integrate review data for deeper sentiment insights.
+
+- Deploy an interactive dashboard or web app for real‑time exploration.
 
 License
 This project is licensed under the MIT License – free to use, modify, and distribute.
@@ -139,4 +143,5 @@ Have questions or want to collaborate? Reach out:
 
 GitHub: Harquin14
 
-LinkedIn: (Add your LinkedIn profile here)
+LinkedIn: =
+email: skemist0@gmail.com
